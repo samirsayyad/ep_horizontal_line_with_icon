@@ -1,0 +1,23 @@
+{
+	"parts":[
+		{
+			"name":"horizontalLine"
+			
+			,"client_hooks":{
+				 "aceEditorCSS": "ep_horizontal_line/static/js/horizontalLine",
+				 "aceDomLineProcessLineAttributes": "ep_horizontal_line/static/js/horizontalLine",
+				 "postAceInit":"ep_horizontal_line/static/js/horizontalLine",
+				 "aceInitialized":"ep_horizontal_line/static/js/horizontalLine",
+				 "aceAttribsToClasses":"ep_horizontal_line/static/js/horizontalLine",
+				 "collectContentPre":"ep_horizontal_line/static/js/shared",
+				 "aceRegisterBlockElements":"ep_horizontal_line/static/js/horizontalLine"
+			},
+			"hooks":{
+				"collectContentPre":"ep_horizontal_line/static/js/shared",
+				"collectContentPost":"ep_horizontal_line/static/js/shared",
+				"eejsBlock_editbarMenuLeft":"ep_horizontal_line/horizontalLine",
+				"getLineHTMLForExport":"ep_horizontal_line/horizontalLine"
+			}
+		}
+	]
+}

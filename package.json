@@ -1,0 +1,17 @@
+{
+	"name":"ep_horizontalLine",
+	"version":"0.0.2",
+	"keywords":["horizontal","line"],
+	"description":"Horizontal line",
+	"contributors":[
+		{
+		"name":"Lokesh N",
+		"email":"nlokesh.17@gmail.com"
+		}
+	],
+	"dependencies":{},
+	"engines":{
+		"node":"*"
+	}
+	
+}
