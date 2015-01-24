@@ -28,5 +28,12 @@ function checkHrInLine(lineAttrib,pool){
 	}
 }
 
+function eejsBlock_styles (hook_name, args, cb) {
+  args.content = args.content + eejs.require("ep_horizontal_line/templates/styles.html", {}, module);
+  return cb();
+}
+
+
 exports.eejsBlock_editbarMenuLeft = eejsBlock_editbarMenuLeft;
 exports.getLineHTMLForExport = getLineHTMLForExport;
+exports.eejsBlock_styles = eejsBlock_styles;

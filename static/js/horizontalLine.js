@@ -21,8 +21,8 @@ function aceDomLineProcessLineAttributes(name,context){
 	if (isPresent){
 
 		var modifier = {
-		  preHtml: '<hr>',
-		  postHtml: '</hr>',
+		  preHtml: '',
+		  postHtml: '<hr></hr>',
 		  processedMarker: true
 		};
 		return [modifier];

@@ -1,9 +1,9 @@
 {
 	"parts":[
 		{
-			"name":"horizontalLine"
-			
-			,"client_hooks":{
+			"name":"horizontal_line",
+			"pre": ["ep_etherpad-lite/webaccess"],
+			"client_hooks":{
 				 "aceEditorCSS": "ep_horizontal_line/static/js/horizontalLine",
 				 "aceDomLineProcessLineAttributes": "ep_horizontal_line/static/js/horizontalLine",
 				 "postAceInit":"ep_horizontal_line/static/js/horizontalLine",
@@ -16,7 +16,8 @@
 				"collectContentPre":"ep_horizontal_line/static/js/shared",
 				"collectContentPost":"ep_horizontal_line/static/js/shared",
 				"eejsBlock_editbarMenuLeft":"ep_horizontal_line/horizontalLine",
-				"getLineHTMLForExport":"ep_horizontal_line/horizontalLine"
+				"getLineHTMLForExport":"ep_horizontal_line/horizontalLine",
+				"eejsBlock_styles": "ep_horizontal_line/horizontalLine"
 			}
 		}
 	]
